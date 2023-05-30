@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+
+/*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+.nav{
+    padding-top: 20px;
+    z-index: 2;
+    top: 0;
+    position: absolute;
+    background: none;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+.nav-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 3em;
+    margin-left: 30em;
+}
+
+.nav-menu a{
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    letter-spacing: 4px;
+    transition: 300ms;
+}
+
+.nav-menu a:hover{
+    color: rgb(29, 29, 29);
+    background: rgb(212, 212, 212);
+    transform: scale(1.2,1.2);
+    border-radius: 40px;
+}
+/*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+
+
+/*SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI */
+.information{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3em;
+    background:rgb(238, 238, 238);
+}
+
+.information img{
+    width: 25em;
+    height: 30em;
+    margin-left: 3em;
+    border-radius: 5px;
+}
+
+.about-me{
+    margin-left: 3em;
+    color: rgb(34, 34, 34);
+}
+
+.about-me h1{
+    font-size: 3em;
+    text-shadow: 1px 1px 3px rgb(34, 34, 34);
+}
+
+.about-me h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgb(34, 34, 34);
+}
+
+.about-me p{
+    margin-bottom: 3em;
+    font-size: 1.1em;
+}
+/*SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI SOBRE MI */
+
+
+/*CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC */
+.cascada{
+    background:rgb(238, 238, 238);
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+}
+
+.cascada-info{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.cascada-title{
+    font-size: 3em;
+    text-shadow: 1px 1px 3px rgb(34, 34, 34);
+}
+
+.cascada-txt{
+    font-size: 1.1em;
+}
+
+.cascada-subtlt{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgb(34, 34, 34);
+}
+
+.cascada-dif{
+    background:rgb(238, 238, 238);
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+}
+
+/*CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC CASCADA SDLC */
+
+
